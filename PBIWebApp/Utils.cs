@@ -18,9 +18,6 @@ namespace PBIWebApp
 
         public static string GetAuthorizationCode()
         {
-            //NOTE: Values are hard-coded for sample purposes.
-            //Create a query string
-            //Create a sign-in NameValueCollection for query string
             var @params = new NameValueCollection
             {
                 //Azure AD will return an authorization code. 
