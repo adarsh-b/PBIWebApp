@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.Identity.Client;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace PBIWebApp
 {
@@ -13,6 +14,12 @@ namespace PBIWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ServicePointManager.Expect100Continue = true;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+               | SecurityProtocolType.Tls11
+               | SecurityProtocolType.Tls12
+               | SecurityProtocolType.Ssl3;
+
             //Redirect uri must match the redirect_uri used when requesting Authorization code.
             string redirectUri = $"{Properties.Settings.Default.RedirectUrl}Redirect";
             string authorityUri = Properties.Settings.Default.AADAuthorityUri;

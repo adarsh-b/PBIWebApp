@@ -10,6 +10,7 @@ using Microsoft.PowerBI.Api;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.Models;
 using System.Collections.Generic;
+using System.Net;
 
 namespace PBIWebApp
 {
@@ -19,6 +20,12 @@ namespace PBIWebApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            ServicePointManager.Expect100Continue = true;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+               | SecurityProtocolType.Tls11
+               | SecurityProtocolType.Tls12
+               | SecurityProtocolType.Ssl3;
+
             if (!Page.IsPostBack)
             {
                 //Test for AuthenticationResult

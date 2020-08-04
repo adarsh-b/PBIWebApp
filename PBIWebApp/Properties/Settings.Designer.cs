@@ -25,28 +25,10 @@ namespace PBIWebApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("862b60da-6c5a-4041-8e63-a81a369619b2")]
-        public string ApplicationID {
-            get {
-                return ((string)(this["ApplicationID"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://analysis.windows.net/powerbi/api")]
         public string PowerBiAPIResource {
             get {
                 return ((string)(this["PowerBiAPIResource"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("H6JCqEBNdzz0g/aV6pXKqv6QFxSEHj0cMFujSkKruoQ=")]
-        public string ApplicationSecret {
-            get {
-                return ((string)(this["ApplicationSecret"]));
             }
         }
         
@@ -89,15 +71,6 @@ namespace PBIWebApp.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string WorkspaceId {
-            get {
-                return ((string)(this["WorkspaceId"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string ReportId {
             get {
                 return ((string)(this["ReportId"]));
@@ -123,6 +96,33 @@ namespace PBIWebApp.Properties {
         public string TenantId {
             get {
                 return ((string)(this["TenantId"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1e0cab2b-b9c7-46ab-8fff-e180f8078711")]
+        public string ApplicationID {
+            get {
+                return ((string)(this["ApplicationID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NZ0Mb6Yx5ISj+g5M6uNkKTJB52gXGU67xy/6SFwFzGc=")]
+        public string ApplicationSecret {
+            get {
+                return ((string)(this["ApplicationSecret"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("me")]
+        public string WorkspaceId {
+            get {
+                return ((string)(this["WorkspaceId"]));
             }
         }
     }

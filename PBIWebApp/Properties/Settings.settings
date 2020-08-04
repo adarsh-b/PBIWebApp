@@ -2,14 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PBIWebApp.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ApplicationID" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">862b60da-6c5a-4041-8e63-a81a369619b2</Value>
-    </Setting>
     <Setting Name="PowerBiAPIResource" Type="System.String" Scope="Application">
       <Value Profile="(Default)">https://analysis.windows.net/powerbi/api</Value>
-    </Setting>
-    <Setting Name="ApplicationSecret" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">H6JCqEBNdzz0g/aV6pXKqv6QFxSEHj0cMFujSkKruoQ=</Value>
     </Setting>
     <Setting Name="AADAuthorityUri" Type="System.String" Scope="Application">
       <Value Profile="(Default)">https://login.windows.net/common/</Value>
@@ -23,9 +17,6 @@
     <Setting Name="PowerBiApiUrl" Type="System.String" Scope="Application">
       <Value Profile="(Default)">https://api.powerbi.com/</Value>
     </Setting>
-    <Setting Name="WorkspaceId" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
-    </Setting>
     <Setting Name="ReportId" Type="System.String" Scope="Application">
       <Value Profile="(Default)" />
     </Setting>
@@ -38,6 +29,15 @@
     </Setting>
     <Setting Name="TenantId" Type="System.String" Scope="Application">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ApplicationID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1e0cab2b-b9c7-46ab-8fff-e180f8078711</Value>
+    </Setting>
+    <Setting Name="ApplicationSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NZ0Mb6Yx5ISj+g5M6uNkKTJB52gXGU67xy/6SFwFzGc=</Value>
+    </Setting>
+    <Setting Name="WorkspaceId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">me</Value>
     </Setting>
   </Settings>
 </SettingsFile>
